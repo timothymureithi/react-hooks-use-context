@@ -11,7 +11,7 @@ function Profile() {
   return (
     <div>
       <h2>{user.name}'s Profile</h2>
-      <Interests />
+      <Interests interests={user.interests} />
     </div>
   );
 }
